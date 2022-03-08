@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>Meu App</title>
+    <title>Álcool ou Gasolina</title>
     <meta charset="UTF-8">
 
     <link rel="stylesheet" type="text/css" href="./css/estilo.css">
@@ -11,24 +11,22 @@
 </head>
 
 <body class="container">
-    <h1>Meu App</h1>
-    <h2 id="mensagem"></h2>
-    <p>LOREM IPSUM LOREN IPSUM</p>
-    <div>
-        <h1>Opa</h1>
-        <p>Teste</p>
-    </div>
-    <div>
-        <h1>Opa</h1>
-        <p>Teste</p>
-    </div>
-    <div>
-        <h1>Opa</h1>
-        <p>Teste</p>
-    </div>
-    <div>
-        <h1>Opa</h1>
-        <p>Teste</p>
+    <div class="container mt-5">
+        <div class="row">
+            <h2>Alcool ou Gasolina ?</h2>
+            <div class="col-md-12 d-flex justify-content-center">
+                <form >
+                    <div>
+                        <button type="button" onclick="calculaPreço()">Calcular</button>
+                    </div>                    
+                </form>
+                <div>
+                    <h2>Teste</h2>      
+                    <h3 id="inner"></h3>              
+                </div>
+                <button type="button" onclick="insertHTML()">Calcular</button>
+            </div>
+        </div>
     </div>
     <script src="./js/index.js"></script>
 </body>
