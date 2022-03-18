@@ -1,0 +1,17 @@
+li.primeiro{
+    background-color: red;
+}
+
+.destaque {
+    background-color: black;
+    color: white;
+}
+
+#destaque {
+    background-color: black;
+    color: green;
+}
+
+div#itens {
+    background-color: orange;
+}
